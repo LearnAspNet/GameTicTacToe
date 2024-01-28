@@ -4,57 +4,57 @@ h3,
 h4,
 h5,
 h6 {
-    font-size: px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    margin: 0;
+  font-size: px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin: 0;
 }
 
 p {
-    margin: 0;
-    font-size: 25px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    text-align: center;
+  margin: 0;
+  font-size: 25px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
 }
 
 .header {
-    color: rgb(4 152 152 / 52%);
-    display: block;
-    font-size: 30px;
-    max-width: 400px;
-    margin: 15px auto;
+  color: rgb(4 152 152 / 52%);
+  display: block;
+  font-size: 30px;
+  max-width: 400px;
+  margin: 15px auto;
 }
 
 .content {
-    text-align: center;
-    width: 185px;
-    margin: 0 auto;
+  text-align: center;
+  width: 185px;
+  margin: 0 auto;
 }
 
 .elem_header {
-    margin-right: 10px;
-    color: rgba(18, 58, 58, 0.52);
+  margin-right: 10px;
+  color: rgba(18, 58, 58, 0.52);
 }
 
 .elem_input {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 20px auto;
 }
 
 #selectelem {
-    border: 1.5px solid rgba(18, 58, 58, 0.52);
-    color: rgba(18, 58, 58, 0.52);
+  border: 1.5px solid rgba(18, 58, 58, 0.52);
+  color: rgba(18, 58, 58, 0.52);
 }
 
 .cell {
-    float: left;
-    width: 55px;
-    height: 55px;
-    border: 1.5px solid rgb(60, 78, 99);
+  float: left;
+  width: 55px;
+  height: 55px;
+  border: 1.5px solid rgb(60, 78, 99);
 }
 
 .cell:hover {
-    background-color: #bebec5;
+  background-color: #bebec5;
 }

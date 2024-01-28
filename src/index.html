@@ -1,34 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Крестики нолики на чистом JS</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1 class="header">Крестики нолики на чистом js</h1>
-        <div class="elem_input">
-            <h3 class="elem_header">За кого будешь играть?</h3>
-            <select id="selectelem">
-                <option value="X">X</option>
-                <option value="O">O</option>
-            </select>
-        </div>
-    <div class="content">
-        <div class="cell" id="1" onclick="gameLogic(this)"></div>
-        <div class="cell" id="2" onclick="gameLogic(this)"></div>
-        <div class="cell" id="3" onclick="gameLogic(this)"></div>
-        <div class="cell" id="4" onclick="gameLogic(this)"></div>
-        <div class="cell" id="5" onclick="gameLogic(this)"></div>
-        <div class="cell" id="6" onclick="gameLogic(this)"></div>
-        <div class="cell" id="7" onclick="gameLogic(this)"></div>
-        <div class="cell" id="8" onclick="gameLogic(this)"></div>
-        <div class="cell" id="9" onclick="gameLogic(this)"></div>
-        <p id="message"></p>
+    <div class="elem_input">
+      <h3 class="elem_header">За кого будешь играть?</h3>
+      <select id="selectelem">
+        <option value="X">X</option>
+        <option value="O">O</option>
+      </select>
     </div>
-    
-<script type="text/javascript" src="main.js"></script>
-</body>
+    <div class="content">
+      <div class="play_area"></div>
+      <p id="message"></p>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
 </html>
